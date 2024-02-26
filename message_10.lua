@@ -4,7 +4,7 @@ end
 
 local loadtick = tick()
 local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/sco0ys1337/other/main/portalsextension.lua"))()
-local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/utility/main/Tween.lua"))()
+local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/sco0ys1337/utility/main/Tween.lua"))()
 local services = setmetatable({}, {
     __index = function(_, k)
         k = (k == "InputService" and "UserInputService") or k
